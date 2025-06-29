@@ -1,13 +1,11 @@
-/*setInterval(() => {
-     date = new Date(); // Fixed the new Date() syntax
+setInterval(() => {
+     date = new Date();
      htime = date.getHours();
      mtime = date.getMinutes();
      stime = date.getSeconds();
-     hrotation = 30 * htime + mtime / 2; // Calculates hour rotation
-     mrotation = 6 * mtime; // Calculates minute rotation
-     srotation = 6 * stime; // Calculates second rotation
-
-    // Get the hour, minute, and second blocks by their IDs and apply rotations
+     hrotation = 30 * htime + mtime / 2; 
+     mrotation = 6 * mtime; 
+     srotation = 6 * stime; 
      hourBlock = document.getElementById("hour_block");
  minBlock = document.getElementById("min_block");
 secBlock = document.getElementById("sec_block");
@@ -16,4 +14,3 @@ secBlock = document.getElementById("sec_block");
     secBlock.style.transform = `rotate(${srotation}deg)`;
 
 }, 1000);
-*/
