@@ -1,0 +1,54 @@
+/*#myCanvas{
+    margin: auto;
+    display: block;
+};
+#sec-block,#min-block,#hour-block{
+   background: rgba(0,0,0,0.7);
+   position: absolute;
+};
+#hour-block{
+    width: 4%;
+    height: 35%;
+    top: 23%;
+    left:49.5%;
+};*/
+
+#myCanvas {
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+#sec_block, #min_block, #hour_block {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    transform-origin: bottom;
+}
+
+#hour_block {
+    width: 0.5%; 
+    height: 12%; 
+    top: 16.5%; 
+    left: 49.8%; 
+    
+}
+
+#min_block {
+    width: 0.4%; 
+    height: 16%; 
+    top: 13%; 
+    left: 49.8%; 
+    
+   
+}
+
+#sec_block {
+    width: 0.3%;
+    height: 18%; 
+    top: 11%; 
+    left: 50%;
+
+}
+
+
+
