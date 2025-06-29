@@ -1,4 +1,5 @@
-/*var c = document.getElementById("myCanvas");
+
+var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.strokeStyle = "rgba(0,0,0,0.7)";
 ctx.beginPath();
@@ -7,11 +8,9 @@ ctx.lineWidth = 5;
 ctx.stroke();
 ctx.strokeStyle = "rgba(0,0,0,1)";
 ctx.beginPath();
-ctx.arc(250,250,4,0,2*Math.PI);
-ctx.lineWidth = 10;
+ctx.arc(250,250,2,0,2*Math.PI);
 ctx.stroke();
 ctx.strokeStyle = "rgba(0,0,0,0.7)";
-
 ctx.beginPath();
 ctx.moveTo(423.21,350);
 ctx.lineTo(400,335.68);
@@ -83,4 +82,3 @@ ctx.moveTo(76.79,350);
 ctx.lineTo(95,336.66);
 ctx.lineWidth = 5; 
 ctx.stroke();
-*/
