@@ -1,4 +1,5 @@
-/*#myCanvas{
+/*
+#myCanvas{
     margin: auto;
     display: block;
 };
@@ -11,9 +12,9 @@
     height: 35%;
     top: 23%;
     left:49.5%;
-};*/
+};
 
-/*#myCanvas {
+#myCanvas {
     margin: auto;
     display: block;
     position: relative;
@@ -49,7 +50,46 @@
     left: 50%;
 
 }
-
-
-
 */
+.clock-container {
+  position: relative;
+  width: 50vmin;
+  height: 50vmin;
+  margin: auto;
+}
+
+#myCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#hour_block,
+#min_block,
+#sec_block {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  transform-origin: bottom center;
+  left: 49.5%; 
+}
+#hour_block {
+  width: 1%;
+  height: 25%;
+  top: 25%;
+}
+
+#min_block {
+  width: 0.8%;
+  height: 33%;
+  top: 17%;
+}
+
+#sec_block {
+  width: 0.5%;
+  height: 38%;
+  top: 12%;
+}
+
