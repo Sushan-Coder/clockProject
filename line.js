@@ -1,4 +1,4 @@
-var _c = document.getElementById("myCanvas");
+/*var _c = document.getElementById("myCanvas");
 var cx = _c.getContext("2d");
 cx.strokeStyle = "rgba(0,0,0,0.7)";
 cx.lineWidth = 5;
@@ -16,7 +16,7 @@ cx.fillText("3",405,260);
 cx.fillText("9",80,260);
 cx.fillText("8",95,336.66);
 cx.fillText("Time",225,300);
-
+*/
 
 
 

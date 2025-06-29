@@ -1,4 +1,4 @@
-setInterval(() => {
+/*setInterval(() => {
      date = new Date(); // Fixed the new Date() syntax
      htime = date.getHours();
      mtime = date.getMinutes();
@@ -16,3 +16,4 @@ secBlock = document.getElementById("sec_block");
     secBlock.style.transform = `rotate(${srotation}deg)`;
 
 }, 1000);
+*/

@@ -1,4 +1,4 @@
-var c = document.getElementById("myCanvas");
+/*var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.strokeStyle = "rgba(0,0,0,0.7)";
 ctx.beginPath();
@@ -83,3 +83,4 @@ ctx.moveTo(76.79,350);
 ctx.lineTo(95,336.66);
 ctx.lineWidth = 5; 
 ctx.stroke();
+*/
